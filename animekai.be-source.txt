@@ -1,0 +1,1664 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="csrf-token" content="pioLrdC3ufDcX9P6Kau0hgC02eqf0xEdQ0u8oXD8">
+    <title>Animekai – Official Watch Free Anime Online in HD</title>
+    <meta name="description" content="Animekai lets you stream your favorite anime series and movies with both subbed and dubbed options, all in high quality.">
+    
+    
+        <link rel="icon" href="https://animekai.be/storage/media/2026/05/favicon.webp" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://animekai.be/storage/media/2026/05/favicon.webp">
+    
+            
+        <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AnimeKai">
+    <meta property="og:title" content="Animekai – Official Watch Free Anime Online in HD">
+    <meta property="og:description" content="Animekai lets you stream your favorite anime series and movies with both subbed and dubbed options, all in high quality.">
+    
+        
+    <link rel="stylesheet" href="https://animekai.be/css/swiper.css">
+    <link rel="stylesheet" href="https://animekai.be/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+    /* styles.css references "Font Awesome 6 Pro" (paid); redirect to free version we load */
+    #filters .dropdown-menu li > input + label::before,
+    #filters .dropdown-menu li > input + label:before {
+        font-family: "Font Awesome 6 Free" !important;
+    }
+    .dropdown-arrow::after,
+    .dropdown-toggle::after {
+        font-family: "Font Awesome 6 Free" !important;
+        font-weight: 900 !important;
+    }
+    /* ── Notification dropdown items ────────────────────── */
+    .acc-wrap .notify .dropdown-menu .items-wrap { max-height: 360px; overflow-y: auto; }
+    .acc-wrap .notify .noti-item {
+        display: flex; align-items: flex-start; gap: .75rem;
+        padding: .6rem 1.4rem; border-bottom: 1px solid rgba(255,255,255,.05);
+        cursor: pointer; transition: background .15s; color: inherit; text-decoration: none;
+    }
+    .acc-wrap .notify .noti-item:hover { background: rgba(255,255,255,.04); }
+    .acc-wrap .notify .noti-item.unread { background: rgba(228,95,58,.06); }
+    .acc-wrap .notify .noti-item img { width: 2.8rem; height: 2.8rem; object-fit: cover; border-radius: .4rem; flex-shrink: 0; }
+    .acc-wrap .notify .noti-no-img { width: 2.8rem; height: 2.8rem; background: rgba(255,255,255,.1); border-radius: .4rem; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+    .acc-wrap .notify .noti-body { flex-grow: 1; font-size: .85rem; line-height: 1.35; }
+    .acc-wrap .notify .noti-time { font-size: .75rem; opacity: .45; white-space: nowrap; }
+    /* ── Activities list & star rating — override FA Pro ────── */
+    ul.activities li:before,
+    .rate-box .stars i:before {
+        font-family: "Font Awesome 6 Free" !important;
+        font-weight: 900 !important;
+    }
+    .rate-box .stars i:before { content: "\f005" !important; font-style: normal; }
+    </style>
+
+    <style>
+#schedule .sfoot .btn-expand.expanded::before { content: "Less"; }
+</style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B78EFX6JHS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B78EFX6JHS');
+</script>
+
+<meta name="profiton-domain-verification" content="aaaddfb9c8cef1784fe9174a378a332edaf59837870ca67b75aae0c04359ce2e" />
+
+<script data-cfasync="false" async type="text/javascript" src="//ka.straitsveiler.com/rk77wly8hMTA9jQT/143765"></script></head>
+<body>
+
+<div id="wrapper" class="home">
+
+    
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+
+                <button class="btn nav-btn" id="nav-menu-btn"><i class="fa-solid fa-bars"></i></button>
+
+                                <a href="https://animekai.be/home" class="brand">
+                    <img src="https://animekai.be/storage/media/2026/05/logo-animekai.webp" alt="AnimeKai">
+                </a>
+                
+                                <div id="search">
+                    <button id="search-btn" class="btn nav-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <div class="inner">
+                        <form action="https://animekai.be/browse" autocomplete="off">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" name="keyword" placeholder="Search anime" value="">
+                            <a href="https://animekai.be/browse"><i class="fa-solid fa-filter"></i> Filter</a>
+                        </form>
+                        <div class="suggestion" style="display: none;"></div>
+                    </div>
+                </div>
+                
+                <a class="nav-btn shuffle-btn" href="https://animekai.be/random"><i class="fa-solid fa-shuffle"></i></a>
+
+                <div class="nav-menu" id="menu">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">Genres</a>
+                            <ul class="c4">
+                                                                <li><a href="https://animekai.be/genres/action" title="Action Anime">Action</a></li>
+                                                                <li><a href="https://animekai.be/genres/adult-cast" title="Adult Cast Anime">Adult Cast</a></li>
+                                                                <li><a href="https://animekai.be/genres/adventure" title="Adventure Anime">Adventure</a></li>
+                                                                <li><a href="https://animekai.be/genres/anthropomorphic" title="Anthropomorphic Anime">Anthropomorphic</a></li>
+                                                                <li><a href="https://animekai.be/genres/avant-garde" title="Avant Garde Anime">Avant Garde</a></li>
+                                                                <li><a href="https://animekai.be/genres/award-winning" title="Award Winning Anime">Award Winning</a></li>
+                                                                <li><a href="https://animekai.be/genres/boys-love" title="Boys Love Anime">Boys Love</a></li>
+                                                                <li><a href="https://animekai.be/genres/comedy" title="Comedy Anime">Comedy</a></li>
+                                                                <li><a href="https://animekai.be/genres/drama" title="Drama Anime">Drama</a></li>
+                                                                <li><a href="https://animekai.be/genres/ecchi" title="Ecchi Anime">Ecchi</a></li>
+                                                                <li><a href="https://animekai.be/genres/erotica" title="Erotica Anime">Erotica</a></li>
+                                                                <li><a href="https://animekai.be/genres/fantasy" title="Fantasy Anime">Fantasy</a></li>
+                                                                <li><a href="https://animekai.be/genres/gag-humor" title="Gag Humor Anime">Gag Humor</a></li>
+                                                                <li><a href="https://animekai.be/genres/girls-love" title="Girls Love Anime">Girls Love</a></li>
+                                                                <li><a href="https://animekai.be/genres/gourmet" title="Gourmet Anime">Gourmet</a></li>
+                                                                <li><a href="https://animekai.be/genres/harem" title="Harem Anime">Harem</a></li>
+                                                                <li><a href="https://animekai.be/genres/hentai" title="Hentai Anime">Hentai</a></li>
+                                                                <li><a href="https://animekai.be/genres/horror" title="Horror Anime">Horror</a></li>
+                                                                <li><a href="https://animekai.be/genres/isekai" title="Isekai Anime">Isekai</a></li>
+                                                                <li><a href="https://animekai.be/genres/josei" title="Josei Anime">Josei</a></li>
+                                                                <li><a href="https://animekai.be/genres/kids" title="Kids Anime">Kids</a></li>
+                                                                <li><a href="https://animekai.be/genres/mecha" title="Mecha Anime">Mecha</a></li>
+                                                                <li><a href="https://animekai.be/genres/mystery" title="Mystery Anime">Mystery</a></li>
+                                                                <li><a href="https://animekai.be/genres/reincarnation" title="Reincarnation Anime">Reincarnation</a></li>
+                                                                <li><a href="https://animekai.be/genres/romance" title="Romance Anime">Romance</a></li>
+                                                                <li><a href="https://animekai.be/genres/school" title="School Anime">School</a></li>
+                                                                <li><a href="https://animekai.be/genres/sci-fi" title="Sci-Fi Anime">Sci-Fi</a></li>
+                                                                <li><a href="https://animekai.be/genres/seinen" title="Seinen Anime">Seinen</a></li>
+                                                                <li><a href="https://animekai.be/genres/shoujo" title="Shoujo Anime">Shoujo</a></li>
+                                                                <li><a href="https://animekai.be/genres/shounen" title="Shounen Anime">Shounen</a></li>
+                                                                <li><a href="https://animekai.be/genres/slice-of-life" title="Slice of Life Anime">Slice of Life</a></li>
+                                                                <li><a href="https://animekai.be/genres/sports" title="Sports Anime">Sports</a></li>
+                                                                <li><a href="https://animekai.be/genres/supernatural" title="Supernatural Anime">Supernatural</a></li>
+                                                                <li><a href="https://animekai.be/genres/suspense" title="Suspense Anime">Suspense</a></li>
+                                                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Types</a>
+                            <ul class="c1">
+                                                                <li><a href="https://animekai.be/tv">TV Series</a></li>
+                                                                <li><a href="https://animekai.be/movie">Movies</a></li>
+                                                                <li><a href="https://animekai.be/ova">OVAs</a></li>
+                                                                <li><a href="https://animekai.be/ona">ONAs</a></li>
+                                                                <li><a href="https://animekai.be/special">Specials</a></li>
+                                                            </ul>
+                        </li>
+                        <li><a href="https://animekai.be/new-releases">New Releases</a></li>
+                        <li><a href="https://animekai.be/updates">Updates</a></li>
+                        <li><a href="https://animekai.be/ongoing">OnGoing</a></li>
+                        <li><a href="https://animekai.be/recent">Recent</a></li>
+                        <li class="d-block d-md-none"><a href="https://animekai.be/random"><i class="fa-solid fa-shuffle"></i> Random</a></li>
+                    </ul>
+                </div>
+
+                                <div class="lang-sw" id="lang-sw">
+                    <span data-lang="en">EN</span>
+                    <span data-lang="jp">JP</span>
+                </div>
+
+                <div class="nav-user">
+                    <div class="acc-wrap">
+                                                <div class="pathway">
+                            <button class="btn modal-trigger" data-id="signin" type="button">
+                                <i class="fa-solid fa-user"></i>
+                            </button>
+                        </div>
+                                            </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    
+    <main>
+        
+
+<section id="featured">
+    <div class="swiper featured" id="featuredSwiper">
+        <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background-image:url('https://animekai.be/storage/media/2026/06/one-piece-1.webp');">
+                <div class="container">
+                    <div class="detail">
+                        <p class="title" data-jp="One Piece">One Piece</p>
+                        <div class="info">
+                                                        <span class="sub"><svg><use href="#sub"></use></svg>1167</span>
+                                                                                    <span class="dub"><svg><use href="#dub"></use></svg>1165</span>
+                                                        <span><b>TV</b></span>                        </div>
+                        <p class="desc">Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a naive-looking teenager,...</p>
+                        <div class="mics">
+                            <div><div>Rating</div><span>PG 13</span></div>
+                            <div><div>Release</div><span>1999</span></div>
+                            <div><div>Quality</div><span>HD</span></div>
+                        </div>
+                        <div class="swiper-ctrl">
+                            <a href="https://animekai.be/watch/one-piece" class="btn btn-primary watch-btn">
+                                <i class="fa-solid fa-play"></i> <span>Watch Now</span>
+                            </a>
+                                                        <div class="dropdown fixed folder-select user-bookmark" data-id="one-piece">
+                                <button class="btn bookmark-guest" data-bs-toggle="dropdown" type="button" aria-expanded="false">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </button>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+    <div class="featured-nav">
+        <div class="container">
+            <div class="featured-nav-wrap">
+                <div class="featured-prev" tabindex="0" role="button" aria-label="Previous slide">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="featured-pagination"></div>
+                <div class="featured-next" tabindex="0" role="button" aria-label="Next slide">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="container">
+    <div class="dual-col home">
+
+        
+        <aside class="scontent">
+
+            
+                        <section id="social-sharing">
+                <div class="sharing-info">
+                                        <div class="gif-sharing" style="background-image:url('https://animekai.be/images/sharing.gif');background-size:cover;background-position:center;"></div>
+                    <div class="text-sharing">
+                        <h4>Love this site?</h4>
+                        <span>Share it and let others know!</span>
+                    </div>
+                </div>
+                <div class="sharethis-inline-share-buttons" data-url="https://animekai.be"></div>
+            </section>
+            
+            
+                        <div class="alert alert-secondary">
+                Animekai is back with a new domain! 🎉 We lost some data, so please register again with a new account. Share Animekai with everyone! 🙌
+            </div>
+            
+            
+            <div id="continue-watching" style="display:none">
+                <section>
+                    <div class="shead justify">
+                        <button type="button" class="onoff-toggle stitle text-uppercase" id="cw-toggle">Continue Watching</button>
+                        <div class="shead-r">
+                                                        <div class="tab-nav">
+                                <button class="btn prev" id="cw-prev" aria-label="Previous slide">
+                                    <i class="fa-solid fa-circle-chevron-left"></i>
+                                </button>
+                                <button class="btn next" id="cw-next" aria-label="Next slide">
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="swiper" id="cwSwiper">
+                            <div class="swiper-wrapper aitem-wrapper regular" id="cw-items"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            
+            <section class="r-update" id="latest-updates">
+                <div class="shead justify lg">
+                    <span class="stitle text-uppercase">Latest Updates</span>
+                    <div class="shead-r">
+                        <div class="snav" data-tabs="" data-ajax="/ajax/home/items?" data-id="latest-updates" data-persist="true">
+                            <span class="tab active" data-id="all-updates">All</span>
+                            <span class="tab" data-id="sub-updates">Sub</span>
+                            <span class="tab" data-id="dub-updates">Dub</span>
+                            <span class="tab" data-id="china-updates">China</span>
+                        </div>
+                        <div class="tab-nav">
+                            <button class="btn prev disabled"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                            <button class="btn next "><i class="fa-solid fa-circle-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-body" id="latest-updates-body">
+                    <div class="loading" id="latest-updates-loading" style="display:none"></div>
+                    <div class="aitem-wrapper regular">
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/weather-report-girl" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/weather-report-girl.webp" alt="Weather Report Girl" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/weather-report-girl" title="Weather Report Girl"
+            data-jp="Otenki Oneesan">Weather Report Girl</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>2</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>2</span>
+                                    <span><b>2</b></span>
+                                    <span><b>OVA</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/rezero-starting-life-in-another-world-season-2" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/rezero-starting-life-in-another-world-season-2.webp" alt="Re:ZERO -Starting Life in Another World- Season 2" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/rezero-starting-life-in-another-world-season-2" title="Re:ZERO -Starting Life in Another World- Season 2"
+            data-jp="Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season">Re:ZERO -Starting Life in Another World- Season 2</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>13</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>13</span>
+                                    <span><b>13</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/gurren-lagann" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/gurren-lagann.webp" alt="Gurren Lagann" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/gurren-lagann" title="Gurren Lagann"
+            data-jp="Tengen Toppa Gurren Lagann">Gurren Lagann</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>27</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>27</span>
+                                    <span><b>27</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/one-piece" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/one-piece.webp" alt="One Piece" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/one-piece" title="One Piece"
+            data-jp="One Piece">One Piece</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>1167</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>1165</span>
+                                                <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/ghost-concert-missing-songs" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/ghost-concert-missing-songs.webp" alt="Ghost Concert: Missing Songs" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/ghost-concert-missing-songs" title="Ghost Concert: Missing Songs"
+            data-jp="Ghost Concert: Missing Songs">Ghost Concert: Missing Songs</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                                <span><b>12</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/the-classroom-of-a-black-cat-and-a-witch" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/the-classroom-of-a-black-cat-and-a-witch.webp" alt="The Classroom of a Black Cat and a Witch" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/the-classroom-of-a-black-cat-and-a-witch" title="The Classroom of a Black Cat and a Witch"
+            data-jp="Kuroneko to Majo no Kyoushitsu">The Classroom of a Black Cat and a Witch</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>11</span>
+                                                            <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/mission-yozakura-family-season-2" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/mission-yozakura-family-season-2.webp" alt="Mission: Yozakura Family Season 2" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/mission-yozakura-family-season-2" title="Mission: Yozakura Family Season 2"
+            data-jp="Yozakura-san Chi no Daisakusen 2nd Season">Mission: Yozakura Family Season 2</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>11</span>
+                                                            <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/wistoria-wand-and-sword-season-2" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/wistoria-wand-and-sword-season-2.webp" alt="Wistoria: Wand and Sword Season 2" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/wistoria-wand-and-sword-season-2" title="Wistoria: Wand and Sword Season 2"
+            data-jp="Tsue to Tsurugi no Wistoria Season 2">Wistoria: Wand and Sword Season 2</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>11</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>7</span>
+                                    <span><b>12</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/ace-of-diamond-act-ii-season-2" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/ace-of-diamond-act-ii-season-2.webp" alt="Ace of Diamond Act II Season 2" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/ace-of-diamond-act-ii-season-2" title="Ace of Diamond Act II Season 2"
+            data-jp="Diamond no Ace: Act II Second Season">Ace of Diamond Act II Season 2</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                                <span><b>13</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/nippon-sangoku-the-three-nations-of-the-crimson-sun" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/nippon-sangoku-the-three-nations-of-the-crimson-sun.webp" alt="Nippon Sangoku: The Three Nations of the Crimson Sun" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/nippon-sangoku-the-three-nations-of-the-crimson-sun" title="Nippon Sangoku: The Three Nations of the Crimson Sun"
+            data-jp="Nippon Sangoku">Nippon Sangoku: The Three Nations of the Crimson Sun</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                                <span><b>12</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/mignon" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/mignon.webp" alt="Mignon" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/mignon" title="Mignon"
+            data-jp="Mignon">Mignon</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>12</span>
+                                    <span><b>12</b></span>
+                                    <span><b>ONA</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/suzume" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/suzume.webp" alt="Suzume" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/suzume" title="Suzume"
+            data-jp="Suzume no Tojimari">Suzume</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>1</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>1</span>
+                                    <span><b>1</b></span>
+                                    <span><b>MOVIE</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/a-gentle-nobles-vacation-recommendation" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/a-gentle-nobles-vacation-recommendation.webp" alt="A Gentle Noble&#039;s Vacation Recommendation" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/a-gentle-nobles-vacation-recommendation" title="A Gentle Noble&#039;s Vacation Recommendation"
+            data-jp="Odayaka Kizoku no Kyuuka no Susume.">A Gentle Noble&#039;s Vacation Recommendation</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                                <span><b>12</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/black-lagoon" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/black-lagoon.webp" alt="Black Lagoon" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/black-lagoon" title="Black Lagoon"
+            data-jp="Black Lagoon">Black Lagoon</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>12</span>
+                                    <span><b>12</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/future-gpx-cyber-formula" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/future-gpx-cyber-formula.webp" alt="Future GPX Cyber Formula" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/future-gpx-cyber-formula" title="Future GPX Cyber Formula"
+            data-jp="Future GPX Cyber Formula">Future GPX Cyber Formula</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>37</span>
+                                                <span><b>37</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/kochikame" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/kochikame.webp" alt="KochiKame" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/kochikame" title="KochiKame"
+            data-jp="Kochira Katsushikaku Kameari Kouenmae Hashutsujo">KochiKame</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>40</span>
+                                                <span><b>373</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/digimon-beatbreak" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/digimon-beatbreak.webp" alt="Digimon Beatbreak" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/digimon-beatbreak" title="Digimon Beatbreak"
+            data-jp="Digimon Beatbreak">Digimon Beatbreak</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>36</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>20</span>
+                                                <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/gachiakuta" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/gachiakuta.webp" alt="Gachiakuta" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/gachiakuta" title="Gachiakuta"
+            data-jp="Gachiakuta">Gachiakuta</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>24</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>24</span>
+                                    <span><b>24</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/agents-of-the-four-seasons-dance-of-spring" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/agents-of-the-four-seasons-dance-of-spring.webp" alt="Agents of the Four Seasons: Dance of Spring" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/agents-of-the-four-seasons-dance-of-spring" title="Agents of the Four Seasons: Dance of Spring"
+            data-jp="Shunkashuutou Daikousha: Haru no Mai">Agents of the Four Seasons: Dance of Spring</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>13</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>10</span>
+                                    <span><b>14</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/kusunokis-garden-of-gods" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/kusunokis-garden-of-gods.webp" alt="Kusunoki&#039;s Garden of Gods" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/kusunokis-garden-of-gods" title="Kusunoki&#039;s Garden of Gods"
+            data-jp="Kami no Niwatsuki Kusunoki-tei">Kusunoki&#039;s Garden of Gods</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                                <span><b>12</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/noblesse" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/noblesse.webp" alt="Noblesse" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/noblesse" title="Noblesse"
+            data-jp="Noblesse">Noblesse</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>13</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>13</span>
+                                    <span><b>13</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/that-time-i-got-reincarnated-as-a-slime-season-3" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/that-time-i-got-reincarnated-as-a-slime-season-3.webp" alt="That Time I Got Reincarnated as a Slime Season 3" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/that-time-i-got-reincarnated-as-a-slime-season-3" title="That Time I Got Reincarnated as a Slime Season 3"
+            data-jp="Tensei shitara Slime Datta Ken 3rd Season">That Time I Got Reincarnated as a Slime Season 3</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>24</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>24</span>
+                                    <span><b>24</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/haikyu-to-the-top" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/haikyu-to-the-top.webp" alt="Haikyu!! To the Top" loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/haikyu-to-the-top" title="Haikyu!! To the Top"
+            data-jp="Haikyuu!! To the Top">Haikyu!! To the Top</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>13</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>12</span>
+                                    <span><b>13</b></span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                                <div class="aitem">
+    <div class="inner">
+        <a href="https://animekai.be/watch/behind-the-supermarket-smoking-with-you" class="poster">
+            <div><img src="https://animekai.be/storage/media/2026/06/behind-the-supermarket-smoking-with-you.webp" alt="Behind the Supermarket, Smoking with You." loading="lazy"></div>
+        </a>
+        <a class="title" href="https://animekai.be/watch/behind-the-supermarket-smoking-with-you" title="Behind the Supermarket, Smoking with You."
+            data-jp="Super no Ura de Yani Suu Futari">Behind the Supermarket, Smoking with You.</a>
+        <div class="info">
+                                    <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                                            <span><b>TV</b></span>
+                    </div>
+    </div>
+</div>
+                                            </div>
+                </div>
+            </section>
+
+            
+            <div class="swiper alist-group" id="alistSwiper">
+                <div class="swiper-wrapper alist-wrapper">
+
+                    
+                    <section class="swiper-slide">
+                        <div class="inner">
+                            <div class="shead justify">
+                                <span class="stitle">New Releases</span>
+                                <a class="more-btn" href="https://animekai.be/new-releases">
+                                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <div class="aitem-wrapper mini compact">
+                                                                <a class="aitem" href="https://animekai.be/watch/black-lagoon" title="Black Lagoon">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/black-lagoon.webp" alt="Black Lagoon"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Black Lagoon">Black Lagoon</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>12</span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/suzume" title="Suzume">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/suzume.webp" alt="Suzume"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Suzume no Tojimari">Suzume</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>1</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>1</span>
+                                    <span><b>MOVIE</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/future-gpx-cyber-formula" title="Future GPX Cyber Formula">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/future-gpx-cyber-formula.webp" alt="Future GPX Cyber Formula"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Future GPX Cyber Formula">Future GPX Cyber Formula</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>37</span>
+                                                <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/kochikame" title="KochiKame">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/kochikame.webp" alt="KochiKame"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Kochira Katsushikaku Kameari Kouenmae Hashutsujo">KochiKame</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>40</span>
+                                                <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/ichijyoma-mankitsu-gurashi" title="Ichijyoma Mankitsu Gurashi!">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/ichijyoma-mankitsu-gurashi.webp" alt="Ichijyoma Mankitsu Gurashi!"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Ichijouma Mankitsugurashi!">Ichijyoma Mankitsu Gurashi!</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>11</span>
+                                                <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/monster-musume-everyday-life-with-monster-girls" title="Monster Musume: Everyday Life with Monster Girls">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/monster-musume-everyday-life-with-monster-girls.webp" alt="Monster Musume: Everyday Life with Monster Girls"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Monster Musume no Iru Nichijou">Monster Musume: Everyday Life with Monster Girls</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>12</span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/to-your-eternity" title="To Your Eternity">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/to-your-eternity.webp" alt="To Your Eternity"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Fumetsu no Anata e">To Your Eternity</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>20</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>20</span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/you-and-idol-precure" title="You and Idol Precure♪">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/you-and-idol-precure.webp" alt="You and Idol Precure♪"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Kimi to Idol Precure♪">You and Idol Precure♪</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>49</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>49</span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                            </div>
+                        </div>
+                    </section>
+
+                    
+                    <section class="swiper-slide">
+                        <div class="inner">
+                            <div class="shead justify">
+                                <span class="stitle">Upcoming</span>
+                                <a class="more-btn" href="https://animekai.be/upcoming">
+                                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <div class="aitem-wrapper mini compact">
+                                                                                                <a class="aitem" href="https://animekai.be/watch/one-punch-man-season-3-part-2" title="One-Punch Man Season 3 Part 2">
+                                    <div class="poster">
+                                        <div><img src="https://animekai.be/storage/media/2026/06/one-punch-man-season-3-part-2.webp" alt="One-Punch Man Season 3 Part 2"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <h6 class="title" data-jp="One Punch Man 3 Part 2">One-Punch Man Season 3 Part 2</h6>
+                                        <div class="info">
+                                            <span class="sub">Preview</span>
+                                            <span><b>TV</b></span>                                        </div>
+                                    </div>
+                                </a>
+                                                                                                <a class="aitem" href="https://animekai.be/watch/bleach-sennen-kessen-hen-kashin-tan" title="Bleach: Thousand-Year Blood War - The Calamity">
+                                    <div class="poster">
+                                        <div><img src="https://animekai.be/storage/media/2026/06/154517l.webp" alt="Bleach: Thousand-Year Blood War - The Calamity"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <h6 class="title" data-jp="Bleach: Sennen Kessen-hen - Kashin-tan">Bleach: Thousand-Year Blood War - The Calamity</h6>
+                                        <div class="info">
+                                            <span class="sub">Preview</span>
+                                            <span><b>TV</b></span>                                        </div>
+                                    </div>
+                                </a>
+                                                                                                <a class="aitem" href="https://animekai.be/watch/otome-game-sekai-wa-mob-ni-kibishii-sekai-desu-2" title="Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs 2">
+                                    <div class="poster">
+                                        <div><img src="https://animekai.be/storage/media/2026/06/158337l.webp" alt="Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs 2"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <h6 class="title" data-jp="Otome Game Sekai wa Mob ni Kibishii Sekai desu 2">Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs 2</h6>
+                                        <div class="info">
+                                            <span class="sub">Preview</span>
+                                            <span><b>TV</b></span>                                        </div>
+                                    </div>
+                                </a>
+                                                                                                <a class="aitem" href="https://animekai.be/watch/grand-blue-season-3" title="Grand Blue Dreaming Season 3">
+                                    <div class="poster">
+                                        <div><img src="https://animekai.be/storage/media/2026/06/158194l.webp" alt="Grand Blue Dreaming Season 3"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <h6 class="title" data-jp="Grand Blue Season 3">Grand Blue Dreaming Season 3</h6>
+                                        <div class="info">
+                                            <span class="sub">Preview</span>
+                                            <span><b>TV</b></span>                                        </div>
+                                    </div>
+                                </a>
+                                                                                                <a class="aitem" href="https://animekai.be/watch/yani-neko" title="Yani Neko">
+                                    <div class="poster">
+                                        <div><img src="https://animekai.be/storage/media/2026/06/156496l.webp" alt="Yani Neko"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <h6 class="title" data-jp="Yani Neko">Yani Neko</h6>
+                                        <div class="info">
+                                            <span class="sub">Preview</span>
+                                            <span><b>TV</b></span>                                        </div>
+                                    </div>
+                                </a>
+                                                                                                <a class="aitem" href="https://animekai.be/watch/clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou" title="Clevatess Season 2">
+                                    <div class="poster">
+                                        <div><img src="https://animekai.be/storage/media/2026/06/157105l.webp" alt="Clevatess Season 2"></div>
+                                    </div>
+                                    <div class="detail">
+                                        <h6 class="title" data-jp="Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou">Clevatess Season 2</h6>
+                                        <div class="info">
+                                            <span class="sub">Preview</span>
+                                            <span><b>TV</b></span>                                        </div>
+                                    </div>
+                                </a>
+                                                            </div>
+                        </div>
+                    </section>
+
+                    
+                    <section class="swiper-slide">
+                        <div class="inner">
+                            <div class="shead justify">
+                                <span class="stitle">Completed</span>
+                                <a class="more-btn" href="https://animekai.be/browse?status=completed">
+                                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <div class="aitem-wrapper mini compact">
+                                                                <a class="aitem" href="https://animekai.be/watch/weather-report-girl" title="Weather Report Girl">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/weather-report-girl.webp" alt="Weather Report Girl"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Otenki Oneesan">Weather Report Girl</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>2</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>2</span>
+                                    <span><b>OVA</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/rezero-starting-life-in-another-world-season-2" title="Re:ZERO -Starting Life in Another World- Season 2">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/rezero-starting-life-in-another-world-season-2.webp" alt="Re:ZERO -Starting Life in Another World- Season 2"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season">Re:ZERO -Starting Life in Another World- Season 2</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>13</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>13</span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/gurren-lagann" title="Gurren Lagann">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/gurren-lagann.webp" alt="Gurren Lagann"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Tengen Toppa Gurren Lagann">Gurren Lagann</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>27</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>27</span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/mignon" title="Mignon">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/mignon.webp" alt="Mignon"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Mignon">Mignon</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>12</span>
+                                    <span><b>ONA</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/suzume" title="Suzume">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/suzume.webp" alt="Suzume"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Suzume no Tojimari">Suzume</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>1</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>1</span>
+                                    <span><b>MOVIE</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/a-gentle-nobles-vacation-recommendation" title="A Gentle Noble&#039;s Vacation Recommendation">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/a-gentle-nobles-vacation-recommendation.webp" alt="A Gentle Noble&#039;s Vacation Recommendation"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Odayaka Kizoku no Kyuuka no Susume.">A Gentle Noble&#039;s Vacation Recommendation</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                                <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/black-lagoon" title="Black Lagoon">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/black-lagoon.webp" alt="Black Lagoon"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Black Lagoon">Black Lagoon</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>12</span>
+                                    <span class="dub"><svg><use href="#dub"></use></svg>12</span>
+                                    <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                                <a class="aitem" href="https://animekai.be/watch/future-gpx-cyber-formula" title="Future GPX Cyber Formula">
+    <div class="poster">
+        <div><img src="https://animekai.be/storage/media/2026/06/future-gpx-cyber-formula.webp" alt="Future GPX Cyber Formula"></div>
+    </div>
+    <div class="detail">
+        <h6 class="title" data-jp="Future GPX Cyber Formula">Future GPX Cyber Formula</h6>
+        <div class="info">
+                        <span class="sub"><svg><use href="#sub"></use></svg>37</span>
+                                                <span><b>TV</b></span>
+                    </div>
+    </div>
+</a>
+                                                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+            <div class="alist-group-nav">
+                <div class="alist-prev"><i class="fa-solid fa-circle-chevron-left"></i> <span>Prev</span></div>
+                <div class="alist-next"><span>Next</span> <i class="fa-solid fa-circle-chevron-right"></i></div>
+            </div>
+
+        </aside>
+
+        
+        <aside class="sidebar">
+
+            
+            <section class="sidebar-section hide-bg-mobile" id="trending-anime">
+                <div class="shead justify">
+                    <div class="stitle"><i class="fa-solid fa-trophy"></i> Top Trending</div>
+                </div>
+                <div class="aitem-col top-anime">
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/black-lagoon.webp');">
+                        <div class="num">1</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/black-lagoon">Black Lagoon</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>12</span>                                <span class="dub"><svg><use href="#dub"></use></svg>12</span>                                <span><b>TV</b></span>                            </div>
+                        </div>
+                    </div>
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/suzume.webp');">
+                        <div class="num">2</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/suzume">Suzume</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>1</span>                                <span class="dub"><svg><use href="#dub"></use></svg>1</span>                                <span><b>MOVIE</b></span>                            </div>
+                        </div>
+                    </div>
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/future-gpx-cyber-formula.webp');">
+                        <div class="num">3</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/future-gpx-cyber-formula">Future GPX Cyber Formula</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>37</span>                                                                <span><b>TV</b></span>                            </div>
+                        </div>
+                    </div>
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/kochikame.webp');">
+                        <div class="num">4</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/kochikame">KochiKame</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>40</span>                                                                <span><b>TV</b></span>                            </div>
+                        </div>
+                    </div>
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/ichijyoma-mankitsu-gurashi.webp');">
+                        <div class="num">5</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/ichijyoma-mankitsu-gurashi">Ichijyoma Mankitsu Gurashi!</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>11</span>                                                                <span><b>TV</b></span>                            </div>
+                        </div>
+                    </div>
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/monster-musume-everyday-life-with-monster-girls.webp');">
+                        <div class="num">6</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/monster-musume-everyday-life-with-monster-girls">Monster Musume: Everyday Life with Monster Girls</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>12</span>                                <span class="dub"><svg><use href="#dub"></use></svg>12</span>                                <span><b>TV</b></span>                            </div>
+                        </div>
+                    </div>
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/to-your-eternity.webp');">
+                        <div class="num">7</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/to-your-eternity">To Your Eternity</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>20</span>                                <span class="dub"><svg><use href="#dub"></use></svg>20</span>                                <span><b>TV</b></span>                            </div>
+                        </div>
+                    </div>
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/you-and-idol-precure.webp');">
+                        <div class="num">8</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/you-and-idol-precure">You and Idol Precure♪</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>49</span>                                <span class="dub"><svg><use href="#dub"></use></svg>49</span>                                <span><b>TV</b></span>                            </div>
+                        </div>
+                    </div>
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/gate-part-2.webp');">
+                        <div class="num">9</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/gate-part-2">GATE Part 2</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>12</span>                                <span class="dub"><svg><use href="#dub"></use></svg>12</span>                                <span><b>TV</b></span>                            </div>
+                        </div>
+                    </div>
+                                                            <div class="aitem" style="background-image:url('https://animekai.be/storage/media/2026/06/fairy-tail-final-series.webp');">
+                        <div class="num">10</div>
+                        <div class="detail">
+                            <a class="title" href="https://animekai.be/watch/fairy-tail-final-series">Fairy Tail Final Series</a>
+                            <div class="info">
+                                <span class="sub"><svg><use href="#sub"></use></svg>51</span>                                <span class="dub"><svg><use href="#dub"></use></svg>51</span>                                <span><b>TV</b></span>                            </div>
+                        </div>
+                    </div>
+                                    </div>
+            </section>
+
+            
+            <section class="sidebar-section" id="schedule">
+                <div class="shead">
+                    <div class="schedule-prev" tabindex="0" role="button" aria-label="Previous">
+                        <i class="fa-solid fa-circle-chevron-left"></i>
+                    </div>
+                    <div class="swiper schedule" id="scheduleSwiper">
+                        <div class="swiper-wrapper">
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-15"
+                                 title="15 Jun">
+                                <span>Mon</span>
+                                <div>15</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-16"
+                                 title="16 Jun">
+                                <span>Tue</span>
+                                <div>16</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-17"
+                                 title="17 Jun">
+                                <span>Wed</span>
+                                <div>17</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-18"
+                                 title="18 Jun">
+                                <span>Thu</span>
+                                <div>18</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-19"
+                                 title="19 Jun">
+                                <span>Fri</span>
+                                <div>19</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-20"
+                                 title="20 Jun">
+                                <span>Sat</span>
+                                <div>20</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-21"
+                                 title="21 Jun">
+                                <span>Sun</span>
+                                <div>21</div>
+                            </div>
+                                                                                    <div class="day swiper-slide active"
+                                 data-date="2026-06-22"
+                                 title="22 Jun">
+                                <span>Mon</span>
+                                <div>22</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-23"
+                                 title="23 Jun">
+                                <span>Tue</span>
+                                <div>23</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-24"
+                                 title="24 Jun">
+                                <span>Wed</span>
+                                <div>24</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-25"
+                                 title="25 Jun">
+                                <span>Thu</span>
+                                <div>25</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-26"
+                                 title="26 Jun">
+                                <span>Fri</span>
+                                <div>26</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-27"
+                                 title="27 Jun">
+                                <span>Sat</span>
+                                <div>27</div>
+                            </div>
+                                                                                    <div class="day swiper-slide"
+                                 data-date="2026-06-28"
+                                 title="28 Jun">
+                                <span>Sun</span>
+                                <div>28</div>
+                            </div>
+                                                    </div>
+                    </div>
+                    <div class="schedule-next" tabindex="0" role="button" aria-label="Next">
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="loading" id="schedule-loading" style="display:none"></div>
+                    <ul class="collapsed" id="schedule-list">
+                                                <li style="padding:.5rem 1.5rem;color:rgba(255,255,255,.4);font-size:.9rem">No releases today.</li>
+                                            </ul>
+                </div>
+                <div class="sfoot">
+                    <span id="schedule-clock"></span>
+                    <button class="btn btn-expand" id="schedule-expand" type="button"></button>
+                </div>
+            </section>
+
+        </aside>
+
+    </div>
+</div>
+
+    </main>
+
+    
+    <footer>
+        <div class="top-footer">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="azlist">
+                        <div>
+                            <div>A-Z List</div>
+                            <span>Searching anime order by alphabet name A to Z.</span>
+                        </div>
+                        <ul>
+                            <li><a href="https://animekai.be/az-list/all">All</a></li>
+                            <li><a href="https://animekai.be/az-list/0-9">0-9</a></li>
+                                                        <li><a href="https://animekai.be/az-list/a">A</a></li>
+                                                        <li><a href="https://animekai.be/az-list/b">B</a></li>
+                                                        <li><a href="https://animekai.be/az-list/c">C</a></li>
+                                                        <li><a href="https://animekai.be/az-list/d">D</a></li>
+                                                        <li><a href="https://animekai.be/az-list/e">E</a></li>
+                                                        <li><a href="https://animekai.be/az-list/f">F</a></li>
+                                                        <li><a href="https://animekai.be/az-list/g">G</a></li>
+                                                        <li><a href="https://animekai.be/az-list/h">H</a></li>
+                                                        <li><a href="https://animekai.be/az-list/i">I</a></li>
+                                                        <li><a href="https://animekai.be/az-list/j">J</a></li>
+                                                        <li><a href="https://animekai.be/az-list/k">K</a></li>
+                                                        <li><a href="https://animekai.be/az-list/l">L</a></li>
+                                                        <li><a href="https://animekai.be/az-list/m">M</a></li>
+                                                        <li><a href="https://animekai.be/az-list/n">N</a></li>
+                                                        <li><a href="https://animekai.be/az-list/o">O</a></li>
+                                                        <li><a href="https://animekai.be/az-list/p">P</a></li>
+                                                        <li><a href="https://animekai.be/az-list/q">Q</a></li>
+                                                        <li><a href="https://animekai.be/az-list/r">R</a></li>
+                                                        <li><a href="https://animekai.be/az-list/s">S</a></li>
+                                                        <li><a href="https://animekai.be/az-list/t">T</a></li>
+                                                        <li><a href="https://animekai.be/az-list/u">U</a></li>
+                                                        <li><a href="https://animekai.be/az-list/v">V</a></li>
+                                                        <li><a href="https://animekai.be/az-list/w">W</a></li>
+                                                        <li><a href="https://animekai.be/az-list/x">X</a></li>
+                                                        <li><a href="https://animekai.be/az-list/y">Y</a></li>
+                                                        <li><a href="https://animekai.be/az-list/z">Z</a></li>
+                                                    </ul>
+                    </div>
+                    <div class="menu-footer">
+                        <a href="https://animekai.be/contact">CONTACT US</a>
+                        <a href="#" class="modal-trigger" data-id="request">REQUEST</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot-footer">
+            <div class="container">
+                <div class="wrapper">
+                    <div>
+                        <div>Copyright &copy;AnimeKai. All Rights Reserved</div>
+                        <span>This site does not store any files on its server. All contents are provided by non-affiliated third parties.</span>
+                                            </div>
+                    <div class="logo-footer">
+                        <img src="https://animekai.be/storage/media/2026/05/logo-animekai.webp" alt="AnimeKai">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+
+<div id="toast"></div>
+
+
+<div class="modal fade" id="signin" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered cs-wrapper">
+
+        
+        <div class="modal-content cs-content" data-name="signin">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+                <h5>Sign in to your account</h5>
+                <div id="signin-alert" class="alert alert-danger d-none mt-3"></div>
+                <form id="signin-form" class="mt-4" autocomplete="off">
+                    <input type="hidden" name="_token" value="pioLrdC3ufDcX9P6Kau0hgC02eqf0xEdQ0u8oXD8" autocomplete="off">                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Email or username" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password" required>
+                    </div>
+                                        <button type="submit" class="btn modal-btn btn-primary w-100 my-3">Sign In</button>
+                </form>
+                <div class="mt-3">Don't have an account? <a href="#" class="cs-switcher" data-target="signup"><strong>Sign up</strong></a></div>
+                <a href="#" class="cs-switcher" data-target="forgot">Forgot Password?</a>
+            </div>
+        </div>
+
+        
+        <div class="modal-content cs-content" data-name="signup" style="display:none">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+                <h5>Create An Account</h5>
+                <div id="signup-alert" class="alert alert-danger d-none mt-3"></div>
+                <form id="signup-form" class="mt-4" autocomplete="off">
+                    <input type="hidden" name="_token" value="pioLrdC3ufDcX9P6Kau0hgC02eqf0xEdQ0u8oXD8" autocomplete="off">                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password confirmation" name="password_confirmation" required>
+                    </div>
+                                        <button type="submit" class="btn modal-btn btn-primary w-100 my-3">Sign Up</button>
+                </form>
+                <div class="mt-3">Already have an account? <a href="#" class="cs-switcher" data-target="signin"><strong>Sign in</strong></a></div>
+            </div>
+        </div>
+        
+        <div class="modal-content cs-content" data-name="forgot" style="display:none">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+                <h5>Forgot Password</h5>
+                <div id="forgot-alert" class="alert alert-danger d-none mt-3"></div>
+                <div id="forgot-success" class="alert alert-success d-none mt-3"></div>
+                <form id="forgot-form" class="mt-4" autocomplete="off">
+                    <input type="hidden" name="_token" value="pioLrdC3ufDcX9P6Kau0hgC02eqf0xEdQ0u8oXD8" autocomplete="off">                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Email or Username" name="account" required>
+                    </div>
+                                        <button type="submit" class="btn modal-btn btn-primary w-100 my-3">Request</button>
+                </form>
+                <div class="mt-3">Back to <a href="#" class="cs-switcher" data-target="signin"><strong>Sign in</strong></a></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="modal fade" id="request" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content normal">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+                <h5>Send Request</h5>
+                <span class="text-muted">If you can't find your favourite anime in our library, please submit a request. We will try to make it available as soon as possible.</span>
+                <form id="request-form" class="mt-4">
+                    <input type="hidden" name="_token" value="pioLrdC3ufDcX9P6Kau0hgC02eqf0xEdQ0u8oXD8" autocomplete="off">                    <div id="request-alert" class="alert alert-danger d-none"></div>
+                    <div id="request-success" class="alert alert-success d-none"></div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="title" placeholder="Anime name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="ref_url" placeholder="Link to MAL / AL / AniDB or any if possible">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="detail" placeholder="More details about it if possible" rows="3"></textarea>
+                    </div>
+                                        <button type="submit" class="btn modal-btn btn-primary w-100 my-3">Send Request</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<svg aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden;pointer-events:none">
+    <symbol version="1.1" id="dub" viewBox="0 0 8.9 9.6">
+        <path d="M7.9.7c-1.1-.9-2.8-.8-3.7.3-.9,1.1-.8,2.8.3,3.7,1.1.9,2.8.8,3.7-.3.9-1.1.8-2.8-.3-3.7Z"></path>
+        <path d="M3,3.9L.1,8l1.7,1.4,3.6-3.5c-.5-.1-1-.3-1.5-.7-.4-.4-.8-.8-1-1.4Z"></path>
+    </symbol>
+    <symbol version="1.1" id="sub" viewBox="0 0 15 9">
+        <path d="M5.04346 5.85205H6.92334C6.89827 6.39632 6.75146 6.87614 6.48291 7.2915C6.21436 7.70687 5.84196 8.03092 5.36572 8.26367C4.89307 8.49284 4.33447 8.60742 3.68994 8.60742C3.16715 8.60742 2.69987 8.51969 2.28809 8.34424C1.87988 8.16878 1.53255 7.91634 1.24609 7.58691C0.963216 7.25749 0.746582 6.85824 0.596191 6.38916C0.449382 5.92008 0.375977 5.39193 0.375977 4.80469V4.38037C0.375977 3.79313 0.452962 3.26497 0.606934 2.7959C0.764486 2.32324 0.986491 1.9222 1.27295 1.59277C1.56299 1.25977 1.91032 1.00553 2.31494 0.830078C2.71956 0.654622 3.16895 0.566895 3.66309 0.566895C4.34342 0.566895 4.91813 0.688639 5.38721 0.932129C5.85628 1.17562 6.21973 1.51042 6.47754 1.93652C6.73535 2.35905 6.88753 2.84066 6.93408 3.38135H5.0542C5.04704 3.08773 4.99691 2.84245 4.90381 2.64551C4.81071 2.44499 4.6639 2.2946 4.46338 2.19434C4.26286 2.09408 3.99609 2.04395 3.66309 2.04395C3.43034 2.04395 3.22803 2.08691 3.05615 2.17285C2.88428 2.25879 2.74105 2.39486 2.62646 2.58105C2.51188 2.76725 2.42594 3.00895 2.36865 3.30615C2.31494 3.59977 2.28809 3.95426 2.28809 4.36963V4.80469C2.28809 5.22005 2.31315 5.57454 2.36328 5.86816C2.41341 6.16178 2.49398 6.40169 2.60498 6.58789C2.71598 6.77409 2.85921 6.91195 3.03467 7.00146C3.2137 7.0874 3.43213 7.13037 3.68994 7.13037C3.9764 7.13037 4.2181 7.08561 4.41504 6.99609C4.61198 6.90299 4.76416 6.76335 4.87158 6.57715C4.979 6.38737 5.0363 6.14567 5.04346 5.85205ZM12.2622 5.85205H14.1421C14.117 6.39632 13.9702 6.87614 13.7017 7.2915C13.4331 7.70687 13.0607 8.03092 12.5845 8.26367C12.1118 8.49284 11.5532 8.60742 10.9087 8.60742C10.3859 8.60742 9.91862 8.51969 9.50684 8.34424C9.09863 8.16878 8.7513 7.91634 8.46484 7.58691C8.18197 7.25749 7.96533 6.85824 7.81494 6.38916C7.66813 5.92008 7.59473 5.39193 7.59473 4.80469V4.38037C7.59473 3.79313 7.67171 3.26497 7.82568 2.7959C7.98324 2.32324 8.20524 1.9222 8.4917 1.59277C8.78174 1.25977 9.12907 1.00553 9.53369 0.830078C9.93831 0.654622 10.3877 0.566895 10.8818 0.566895C11.5622 0.566895 12.1369 0.688639 12.606 0.932129C13.075 1.17562 13.4385 1.51042 13.6963 1.93652C13.9541 2.35905 14.1063 2.84066 14.1528 3.38135H12.2729C12.2658 3.08773 12.2157 2.84245 12.1226 2.64551C12.0295 2.44499 11.8826 2.2946 11.6821 2.19434C11.4816 2.09408 11.2148 2.04395 10.8818 2.04395C10.6491 2.04395 10.4468 2.08691 10.2749 2.17285C10.103 2.25879 9.9598 2.39486 9.84521 2.58105C9.73063 2.76725 9.64469 3.00895 9.5874 3.30615C9.53369 3.59977 9.50684 3.95426 9.50684 4.36963V4.80469C9.50684 5.22005 9.5319 5.57454 9.58203 5.86816C9.63216 6.16178 9.71273 6.40169 9.82373 6.58789C9.93473 6.77409 10.078 6.91195 10.2534 7.00146C10.4325 7.0874 10.6509 7.13037 10.9087 7.13037C11.1951 7.13037 11.4368 7.08561 11.6338 6.99609C11.8307 6.90299 11.9829 6.76335 12.0903 6.57715C12.1978 6.38737 12.255 6.14567 12.2622 5.85205Z"></path>
+    </symbol>
+</svg>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://animekai.be/js/site.js?v=1.0.0"></script>
+
+<script>
+$(function () {
+
+    // ── Latest Updates: tab switch + AJAX pagination ──────
+    (function () {
+        var $section    = $('#latest-updates');
+        var $body       = $('#latest-updates-body');
+        var $prev       = $section.find('.tab-nav .prev');
+        var $next       = $section.find('.tab-nav .next');
+        var currentTab  = 'all-updates';
+        var currentPage = 1;
+
+        function setNav(hasPrev, hasNext) {
+            $prev.toggleClass('disabled', !hasPrev);
+            $next.toggleClass('disabled', !hasNext);
+        }
+
+        function loadUpdates(tab, page) {
+            $('#latest-updates-loading').show();
+            $body.find('.aitem-wrapper').hide();
+            $.getJSON('/ajax/home/items', { tab: tab, page: page }, function (data) {
+                var content = data.html
+                    ? data.html
+                    : '<p style="padding:1rem;color:rgba(255,255,255,.4)">No updates yet.</p>';
+                $body.html('<div class="loading" id="latest-updates-loading" style="display:none"></div><div class="aitem-wrapper regular">' + content + '</div>');
+                setNav(data.has_prev, data.has_next);
+                currentPage = data.page;
+            });
+        }
+
+        $section.on('click', '.snav .tab', function () {
+            var tab = $(this).data('id');
+            if (tab === currentTab) return;
+            $section.find('.snav .tab').removeClass('active');
+            $(this).addClass('active');
+            currentTab = tab;
+            loadUpdates(currentTab, 1);
+        });
+
+        $prev.on('click', function () {
+            if ($(this).hasClass('disabled')) return;
+            loadUpdates(currentTab, currentPage - 1);
+        });
+
+        $next.on('click', function () {
+            if ($(this).hasClass('disabled')) return;
+            loadUpdates(currentTab, currentPage + 1);
+        });
+    })();
+
+    // ── Featured Swiper ───────────────────────────────────
+    new Swiper('#featuredSwiper', {
+        effect: 'fade',
+        loop: true,
+        autoplay: { delay: 5000, disableOnInteraction: false },
+        navigation: { nextEl: '.featured-next', prevEl: '.featured-prev' },
+        pagination: { el: '.featured-pagination', type: 'fraction' },
+    });
+
+    // ── Alist Group (New Releases / Upcoming / Completed) ─
+    new Swiper('#alistSwiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 0,
+        navigation: { nextEl: '.alist-next', prevEl: '.alist-prev' },
+    });
+
+    // ── Schedule Date Swiper ──────────────────────────────
+    var scheduleSwiper = new Swiper('#scheduleSwiper', {
+        slidesPerView: 3,
+        spaceBetween: 4,
+        centeredSlides: true,
+        initialSlide: 7,
+        navigation: { nextEl: '.schedule-next', prevEl: '.schedule-prev' },
+    });
+
+    // Schedule day click → fetch releases
+    $(document).on('click', '#schedule .day', function () {
+        var date = $(this).data('date');
+        $('#schedule .day').removeClass('active');
+        $(this).addClass('active');
+        $('#schedule-loading').show();
+        $('#schedule-list').hide();
+        $.getJSON('/api/schedule?date=' + date, function (data) {
+            var html = '';
+            if (!data.length) {
+                html = '<li style="padding:.5rem 1.5rem;color:rgba(255,255,255,.4);font-size:.9rem">No releases.</li>';
+            } else {
+                data.forEach(function (r) {
+                    html += '<li><a class="' + (r.aired ? 'current' : '') + '" href="/watch/' + r.slug + '">' +
+                        '<span class="time">' + r.time + '</span>' +
+                        '<span class="title">' + r.title + '</span>' +
+                        '<span>EP ' + r.episode + '</span></a></li>';
+                });
+            }
+            $('#schedule-loading').hide();
+            $('#schedule-list').show().html(html);
+        });
+    });
+
+    // Schedule expand/collapse
+    $('#schedule-expand').on('click', function () {
+        var $ul = $('#schedule-list');
+        var expanded = !$ul.hasClass('collapsed');
+        $ul.toggleClass('collapsed', expanded);
+        $(this).toggleClass('expanded', !expanded);
+    });
+
+    // Schedule live clock
+    function updateClock() {
+        var now = new Date();
+        var h = String(now.getHours()).padStart(2,'0');
+        var m = String(now.getMinutes()).padStart(2,'0');
+        var s = String(now.getSeconds()).padStart(2,'0');
+        $('#schedule-clock').text(now.toLocaleDateString() + ' ' + h + ':' + m + ':' + s);
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    // ── Bookmark: guest → toast ───────────────────────────
+    $(document).on('click', '.bookmark-guest', function () {
+        showToast('You have not logged in.', 'warning');
+    });
+
+    // ── Continue Watching ─────────────────────────────────
+    var _cwSwiper  = null;
+    var _cwIsAuth  = false;
+    var _cwHidden  = _cwIsAuth
+        ? false
+        : (localStorage.getItem('cw-hide') === 'on');
+
+    function cwEsc(s) {
+        return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    function cwFmt(sec) {
+        sec = Math.floor(sec || 0);
+        var h = Math.floor(sec / 3600);
+        var m = Math.floor((sec % 3600) / 60);
+        var s = sec % 60;
+        if (h > 0) return h + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+        return m + ':' + String(s).padStart(2,'0');
+    }
+
+    function cwBuildItem(item) {
+        var timeInfo = (item.duration_seconds > 0)
+            ? '<span><b>' + cwFmt(item.progress_seconds) + ' / ' + cwFmt(item.duration_seconds) + '</b></span>'
+            : '<span><b>EP ' + cwEsc(item.episode_number || 1) + '</b></span>';
+        var subInfo = item.has_sub
+            ? '<span class="sub"><svg><use href="#sub"></use></svg>' + cwEsc(item.sub_ep || '') + '</span>'
+            : '';
+        var pct = Math.min(100, Math.max(0, parseFloat(item.progress_percent) || 0));
+        var animeIdAttr = item.anime_id ? ' data-anime-id="' + item.anime_id + '"' : '';
+        return '<div class="swiper-slide aitem" data-slug="' + cwEsc(item.slug) + '">'
+            + '<div class="inner">'
+            + '<div class="ctrl"><button type="button" class="watching-delete" data-slug="' + cwEsc(item.slug) + '"' + animeIdAttr + '><i class="fa-solid fa-xmark"></i></button></div>'
+            + '<a href="' + cwEsc(item.watch_url) + '" class="poster"><div><img src="' + cwEsc(item.poster || '') + '" alt="' + cwEsc(item.title) + '" loading="lazy"></div></a>'
+            + '<a class="title" data-jp="' + cwEsc(item.title_jp || '') + '">' + cwEsc(item.title) + '</a>'
+            + '<div class="info">' + subInfo + timeInfo + '</div>'
+            + '<div class="progress-bar"><div style="width:' + pct.toFixed(1) + '%"></div></div>'
+            + '</div></div>';
+    }
+
+    function cwApplyHiddenState() {
+        if (_cwHidden) {
+            $('#cw-toggle').addClass('off');
+            $('#continue-watching .body').hide();
+        } else {
+            $('#cw-toggle').removeClass('off');
+            $('#continue-watching .body').show();
+        }
+    }
+
+    function cwRender(items) {
+        if (!items || !items.length) { $('#continue-watching').hide(); return; }
+        var html = '';
+        $.each(items, function (_, item) { html += cwBuildItem(item); });
+        $('#cw-items').html(html);
+        $('#continue-watching').show();
+                if (_cwSwiper) { _cwSwiper.destroy(true, true); _cwSwiper = null; }
+        _cwSwiper = new Swiper('#cwSwiper', {
+            slidesPerView: 'auto',
+            spaceBetween: 12,
+            navigation: { nextEl: '#cw-next', prevEl: '#cw-prev' },
+        });
+        cwApplyHiddenState();
+    }
+
+    function cwLoad() {
+        if (_cwIsAuth) {
+            $.getJSON('/api/continue-watching', function (data) { cwRender(data); });
+        } else {
+            try {
+                var stored = JSON.parse(localStorage.getItem('continueWatching') || '[]');
+                stored.sort(function (a, b) { return (b.lastWatched || 0) - (a.lastWatched || 0); });
+                cwRender(stored);
+            } catch (e) {}
+        }
+    }
+
+    cwLoad();
+
+    $('#cw-toggle').on('click', function () {
+        _cwHidden = !_cwHidden;
+        $('#cw-toggle').toggleClass('off', _cwHidden);
+        $('#continue-watching .body').slideToggle(250);
+        if (_cwIsAuth) {
+            $.post('/api/continue-watching/toggle', {
+                _token: $('meta[name="csrf-token"]').attr('content'),
+                hide:   _cwHidden ? 1 : 0,
+            });
+        } else {
+            localStorage.setItem('cw-hide', _cwHidden ? 'on' : 'off');
+        }
+    });
+
+    $(document).on('click', '.watching-delete', function () {
+        var $slide   = $(this).closest('.swiper-slide');
+        var slug     = $(this).data('slug');
+        var animeId  = $(this).data('anime-id');
+
+        function cwAfterDelete() {
+            if (_cwSwiper) _cwSwiper.removeSlide(_cwSwiper.slides.indexOf($slide[0]));
+            $slide.remove();
+            if (_cwSwiper) _cwSwiper.update();
+            if (!$('#cw-items .swiper-slide').length) $('#continue-watching').hide();
+        }
+
+        if (_cwIsAuth && animeId) {
+            $.ajax({
+                url:  '/api/continue-watching/' + animeId,
+                type: 'DELETE',
+                data: { _token: $('meta[name="csrf-token"]').attr('content') },
+                success: cwAfterDelete,
+                error:   function () { showToast('Could not remove item.', 'danger'); },
+            });
+        } else {
+            try {
+                var cw = JSON.parse(localStorage.getItem('continueWatching') || '[]');
+                localStorage.setItem('continueWatching', JSON.stringify(
+                    cw.filter(function (i) { return i.slug !== slug; })
+                ));
+            } catch (e) {}
+            cwAfterDelete();
+        }
+    });
+
+    // ── Bookmark: auth → save status via AJAX ─────────────
+    $(document).on('click', '.bookmark-status', function (e) {
+        e.preventDefault();
+        var slug   = $(this).data('slug');
+        var status = $(this).data('status');
+        var label  = $(this).text().trim();
+        $.ajax({
+            url:  '/watchlist/save',
+            type: 'POST',
+            data: { _token: $('meta[name="csrf-token"]').attr('content'), slug: slug, status: status },
+            success: function () { showToast('Saved to ' + label, 'success'); },
+            error:   function () { showToast('Failed to save. Please try again.', 'danger'); },
+        });
+    });
+
+});
+</script>
+
+<script>
+$(function () {
+    // ── Bootstrap tooltips (global) ─────────────────────────────────
+    document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (el) {
+        new bootstrap.Tooltip(el, { container: 'body', trigger: 'hover' });
+    });
+
+    // ── Copier: copy data-attr value (or href) to clipboard ─────────
+    $(document).on('click', '.copier', function (e) {
+        e.preventDefault();
+        var $el   = $(this);
+        var attr  = $el.data('attr');
+        var text  = attr ? $el.attr(attr) : $el.text().trim();
+        var tip   = bootstrap.Tooltip.getInstance($el[0]);
+        navigator.clipboard.writeText(text).then(function () {
+            if (tip) {
+                tip.setContent({ '.tooltip-inner': 'Copied!' });
+                setTimeout(function () { tip.setContent({ '.tooltip-inner': 'Copy' }); }, 1500);
+            }
+            showToast('Copied to clipboard!', 'success');
+        }).catch(function () {
+            var ta = document.createElement('textarea');
+            ta.value = text; document.body.appendChild(ta); ta.select();
+            document.execCommand('copy'); document.body.removeChild(ta);
+            showToast('Copied!', 'success');
+        });
+    });
+});
+</script>
+
+
+
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=68b135cf331e60c4170887e3&product=inline-share-buttons" defer></script>
+</body>
+</html>
