@@ -30,3 +30,5 @@ Your feedback helps improve AnimeKai! Feel free to report issues and suggest new
 Thank you for supporting AnimeKai and being part of the journey. More features and improvements are coming soon! 🚀
 
 AnimeKai is not made by me I converted into an app thats all and did some patches, note: If any blank screen appears just click the back button, TV version coming soon. Updates every week!
+
+This Saturday the app will be updated for stability
